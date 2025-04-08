@@ -1,7 +1,7 @@
 
-# _NeoVault
+# NeoVault
 
-_**NeoVault** is a secure, end-to-end encrypted storage solution built with SwiftUI using the MVVM-C (Model-View-ViewModel-Coordinator) architecture pattern. The app provides encrypted local and cloud storage, allowing seamless synchronization between the two storage types.
+**NeoVault** is a secure, end-to-end encrypted storage solution built with SwiftUI using the MVVM-C (Model-View-ViewModel-Coordinator) architecture pattern. The app provides encrypted local and cloud storage, allowing seamless synchronization between the two storage types.
 
 The cloud storage backend is powered by Wasabi S3, and the app implements AES-256 encryption to protect files both locally and when uploaded to the cloud. The encryption key and initialization vector (IV) are derived from a combination of the user's password and a salt.
 
